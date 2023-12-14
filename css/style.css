@@ -1,9 +1,9 @@
 /* ROOT  */
 :root {
-    --header-bg-color:#06131f;
-    --main-bg-color:#1d2d3c;
-    --card-bg-color:#112030;
-    --details-card-bg-color:#112030e1;
+    --header-bg-color: #06131f;
+    --main-bg-color: #1d2d3c;
+    --card-bg-color: #112030;
+    --details-card-bg-color: #112030e1;
 }
 
 /* RESET */
@@ -54,7 +54,7 @@ main {
 }
 
 .title {
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 
 .author {
@@ -72,7 +72,6 @@ main {
     border-radius: 10px;
     padding: 1.1rem;
 }
-
 
 .fa-x {
     color: white;
