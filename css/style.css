@@ -1,0 +1,61 @@
+/* ROOT  */
+:root {
+    --header-bg-color:#06131f;
+    --main-bg-color:#1d2d3c;
+    --card-bg-color:#112030;
+}
+
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--header-bg-color);
+    height: 10vh;
+}
+.logo {
+    width: 4%;
+}
+
+/* MAIN */
+main {
+    min-height: 90vh;
+    background-color: var(--main-bg-color);
+}
+.wrapper {
+    width: 75%;
+    gap: 2rem;
+}
+
+.card {
+    width: 25%;
+    background-color: var(--card-bg-color);
+    color: white;
+}
+
+.poster {
+    width: 75%;
+}
+
+.title {
+    font-size: 1.5rem
+}
+
+.author {
+    font-size: 0.8rem;
+}
