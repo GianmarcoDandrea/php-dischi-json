@@ -3,6 +3,7 @@
     --header-bg-color:#06131f;
     --main-bg-color:#1d2d3c;
     --card-bg-color:#112030;
+    --details-card-bg-color:#112030e1;
 }
 
 /* RESET */
@@ -58,4 +59,21 @@ main {
 
 .author {
     font-size: 0.8rem;
+}
+
+#details-card {
+    display: none;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: var(--details-card-bg-color);
+    color: white;
+    border-radius: 10px;
+    padding: 1.1rem;
+}
+
+
+.fa-x {
+    color: white;
 }

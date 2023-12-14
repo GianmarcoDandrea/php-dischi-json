@@ -1,12 +1,13 @@
 <?php
 
-$string = file_get_contents("dischi.json");
+$json = file_get_contents("dischi.json");
 
-$list = json_decode($string, true);
+$id = $_GET['id'] ?? null;
 
-
-$json = json_encode($list);
-
+if ($id) {
+    $list = json_decode($json, true);    
+    $json = json_encode($list[$id]);
+}
 
 header("Content-Type: application/json");
 echo $json;
